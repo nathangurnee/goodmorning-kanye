@@ -3,5 +3,5 @@
  
  Has the ability to be automated using an OS job scheduler. In this case, I used cron for Unix-based systems. Enter the following in your crontab file to be sent a brand new quote every morning at 10am:
  ```
- 0 10 * * * /path_to_script.py
+ 0 10 * * * /path_to_Python /path_to_script.py
  ```
